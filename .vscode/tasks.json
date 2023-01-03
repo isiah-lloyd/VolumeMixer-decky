@@ -100,6 +100,14 @@
                 "deployall"
             ],
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "restartdecky",
+            "detail": "Resets decky",
+            "type": "shell",
+            "group": "none",
+            "command": "ssh deck@${config:deckip} -p ${config:deckport} ${config:deckkey} 'echo '${config:deckpass}' | sudo -S systemctl restart plugin_loader'",
+            "problemMatcher": []
+        },
     ]
 }

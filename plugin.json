@@ -1,10 +1,13 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
-  "flags": ["debug", "_root"],
+  "name": "Volume Mixer",
+  "author": "Isiah Lloyd",
+  "flags": [],
   "publish": {
-    "tags": ["template", "root"],
-    "description": "Decky example plugin.",
+    "tags": [
+      "volume",
+      "media"
+    ],
+    "description": "Control the volume of applications and connected Bluetooth sources.",
     "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
   }
 }
