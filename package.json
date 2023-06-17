@@ -1,6 +1,6 @@
 {
   "name": "VolumeMixer-decky",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Control the volume of applications and connected Bluetooth sources",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
