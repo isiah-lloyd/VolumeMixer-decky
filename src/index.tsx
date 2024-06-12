@@ -103,7 +103,7 @@ const Content: VFC<{ serverAPI: ServerAPI }> = ({ serverAPI }) => {
         }
         return (
           <PanelSectionRow>
-            <SliderField bottomSeparator="none" min={0} max={1} step={0.05} value={sinkInput.volume} label={label}
+            <SliderField bottomSeparator="none" min={0} max={1.5} step={0.05} value={sinkInput.volume} label={label}
               disabled={!sinkInput.index} description={sinkInput.codec} onChange={(volume) => setInputVolume(sinkInput.index, volume)} />
             {sinkInput.device &&
               <Focusable style={{ display: 'flex', alignItems: 'center', gap: '1rem' }} flow-children="horizontal">
